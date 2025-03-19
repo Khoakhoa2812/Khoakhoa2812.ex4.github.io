@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #fff;
+            --secondary-color: #000;
+        }
+
+        [data-bs-theme="dark"] {
+            --primary-color: #000;
+            --secondary-color: #fff;
+        }
+        body {
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+        }
+        h3 {
+            font-family: 'Indie Flower', cursive;
+        }
+        .review-box {
+            border: 1px solid black;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .container {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Your Name</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="my-5">
+        <h1 class="text-center">Frontend Developer</h1>
+        <p class="text-center">A responsive and styled portfolio</p>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Projects</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">HTML Only Portfolio</li>
+                    <li class="list-group-item">Calculator</li>
+                    <li class="list-group-item">Quiz App</li>
+                    <li class="list-group-item">Countdown Timer</li>
+                    <li class="list-group-item">Product Upcoming Page</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h3>Work Experience</h3>
+                <p><strong>roadmap.sh</strong> - Solved all the frontend projects</p>
+                <p><a href="#" class="btn btn-primary">Visit my Profile</a></p>
+                <h3>Open Source Work</h3>
+                <p>Contributed to 50 open-source projects.</p>
+                <p><a href="#" class="btn btn-primary">Visit my GitHub Profile</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>Education</h3>
+                <p>Graduated with 3.76 out of 4 CGPA.</p>
+                <h4>Courses:</h4>
+                <ul>
+                    <li>OOP</li>
+                    <li>Data Structures</li>
+                    <li>Web Engineering</li>
+                    <li>AI</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="mt-4">
+        <h3>Reviews from my Teachers</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="border p-3 rounded">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <strong>Jane Doe</strong><br>Assistant Professor
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border p-3 rounded">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <strong>Jane Doe</strong><br>Assistant Professor
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="border p-3 rounded">
+                    <p>John Doe was a brilliant student; always stood out with his assignments.</p>
+                    <strong>Jane Doe</strong><br>Assistant Professor
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="text-center p-3 bg-dark text-white">
+        &copy; 2025 All rights reserved
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
